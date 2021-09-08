@@ -1,3 +1,23 @@
 p {
   font-family: "Courier New", Courier, monospace;
 }
+
+.arrow {
+  z-index: 2;
+}
+
+.street {
+  background-image: url(assets/street.png);
+}
+
+.left {
+  position: fixed;
+  top: 50%;
+  left: 5%;
+  height: 10%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  z-index: 1;
+}
