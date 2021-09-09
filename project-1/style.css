@@ -8,11 +8,7 @@ p {
   transform: translate(0%, -50%);
   line-height: 150%;
   font-size: large;
-}
 
-div {
-  color: white;
-}
 
 a {
   text-decoration: none;
@@ -74,6 +70,15 @@ body {
 
 .cooking {
   background-size: cover;
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  min-height: 100%;
 }
 
 .left {
