@@ -1,13 +1,79 @@
 p {
   font-family: "Courier New", Courier, monospace;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  transform: translate(0%, -50%);
+  line-height: 150%;
+  font-size: large;
+}
+
+div {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+.a-hover:hover {
+  color: white;
+  background-color: black;
 }
 
 .arrow {
   z-index: 2;
 }
 
+body {
+  background-repeat: no-repeat;
+}
+
 .street {
   background-image: url(assets/street.png);
+  background-size: 110%;
+}
+
+.house {
+  background-image: url(assets/house.jpg);
+  background-size: cover;
+  background-position: 15% 15%;
+}
+
+.house-front {
+  background-image: url(assets/house-front.jpg);
+  background-size: cover;
+  background-size: 105%;
+}
+
+.apartment {
+  background-image: url(assets/404.jpg);
+  background-size: cover;
+}
+
+.living-room {
+  background-image: url(assets/living-room.jpeg);
+  background-size: cover;
+}
+
+.kitchen {
+  background-image: url(assets/kitchen.jpeg);
+  background-size: cover;
+  background-size: 110%;
+  background-position: 50% 15%;
+}
+
+.bedroom {
+  background-image: url(assets/bedroom.jpeg);
+  background-size: cover;
+}
+
+.cooking {
+  background-size: cover;
 }
 
 .left {
@@ -16,6 +82,34 @@ p {
   left: 5%;
   height: 10%;
   transform: translate(-50%, -50%);
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+.up {
+  position: fixed;
+  top: 8%;
+  left: 50%;
+  width: 6%;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+.down {
+  position: fixed;
+  top: 92%;
+  left: 50%;
+  width: 6%;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.3));
+}
+
+.right {
+  position: fixed;
+  top: 50%;
+  left: 95%;
+  height: 10%;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(-3px 3px 3px rgba(0, 0, 0, 0.3));
 }
 
 img {
