@@ -8,11 +8,34 @@ p {
   transform: translate(0%, -50%);
   line-height: 150%;
   font-size: large;
+}
 
+.cooking p {
+  background-color: white;
+}
 
+.couch p {
+  background-color: white;
+}
 a {
   text-decoration: none;
   color: black;
+  background-color: white;
+}
+
+.tv p {
+  background-color: white;
+}
+
+.sleep p {
+  background-color: white;
+}
+
+.empty-bedroom p {
+  background-color: white;
+}
+
+.eating p {
   background-color: white;
 }
 
@@ -51,6 +74,11 @@ body {
   background-size: cover;
 }
 
+.empty-bedroom {
+  background-image: url(assets/empty-bedroom.jpg);
+  background-size: cover;
+}
+
 .living-room {
   background-image: url(assets/living-room.jpeg);
   background-size: cover;
@@ -68,8 +96,116 @@ body {
   background-size: cover;
 }
 
+.tv {
+  background-image: url(assets/off-tv.jpg);
+  background-size: cover;
+}
+
+.sleep {
+  background-image: url(assets/sleep.jpg);
+  background-size: cover;
+}
+
 .cooking {
   background-size: cover;
+}
+
+.eating {
+  background-image: url(assets/hotpot.jpeg);
+  background-size: cover;
+}
+
+.couch {
+  background-image: url(assets/couch.jpg);
+  background-size: cover;
+}
+
+.pantry {
+  background-image: url(assets/pantry.jpg);
+  background-size: cover;
+}
+
+.food-network {
+  background-image: url(assets/food-network.jpg);
+  background-size: cover;
+}
+
+.house-bedroom {
+  background-image: url(assets/hou);
+  background-size: cover;
+}
+
+.house-kitchen {
+  background-image: url(assets/house-kitchen.jpeg);
+  background-size: cover;
+}
+
+.house-living-room {
+  background-image: url(assets/house-living-room.jpeg);
+  background-size: cover;
+}
+
+.house-front-door {
+  background-image: url(assets/house-door.jpeg);
+  background-size: cover;
+}
+
+.house-front-enter {
+  background-image: url(assets/house-front.jpeg);
+  background-size: cover;
+}
+
+.nuts {
+  position: fixed;
+  top: 83%;
+  left: 26%;
+  height: 30%;
+  transform: translate(-50%, -50%);
+
+  animation-duration: 2s;
+  animation-name: up-down2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.bottle {
+  position: fixed;
+  top: 39.5%;
+  left: 77.2%;
+  height: 20%;
+  transform: translate(-50%, -50%);
+  animation-duration: 2s;
+  animation-name: up-down;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes up-down {
+  from {
+    height: 20%;
+    top: 39.5%;
+    left: 77.2%;
+  }
+
+  to {
+    height: 18%;
+    top: 40.5%;
+    left: 77%;
+  }
+}
+
+@keyframes up-down2 {
+  from {
+    height: 30%;
+    top: 83%;
+    left: 26%;
+  }
+
+  to {
+    height: 29%;
+    top: 84%;
+    left: 26.3%;
+  }
 }
 
 video {
