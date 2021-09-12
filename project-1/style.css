@@ -12,10 +12,20 @@ p {
 
 .cooking p {
   background-color: white;
+  width: fit-content;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .couch p {
   background-color: white;
+  width: fit-content;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 5px;
+  padding-right: 5px;
 }
 a {
   text-decoration: none;
@@ -25,18 +35,83 @@ a {
 
 .tv p {
   background-color: white;
+  width: fit-content;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .sleep p {
   background-color: white;
+  width: fit-content;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .empty-bedroom p {
   background-color: white;
+  width: fit-content;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .eating p {
   background-color: white;
+  width: fit-content;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.packing-kitchen p {
+  background-color: white;
+  width: fit-content;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.packing-tv p {
+  background-color: white;
+  width: fit-content;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.packing-bedroom p {
+  background-color: white;
+  width: fit-content;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.no-sleep p {
+  background-color: white;
+  width: fit-content;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.pov-cooking p {
+  background-color: white;
+  width: fit-content;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .a-hover:hover {
@@ -131,7 +206,7 @@ body {
 }
 
 .house-bedroom {
-  background-image: url(assets/hou);
+  background-image: url(assets/house-bedroom.JPG);
   background-size: cover;
 }
 
@@ -152,6 +227,21 @@ body {
 
 .house-front-enter {
   background-image: url(assets/house-front.jpeg);
+  background-size: cover;
+}
+
+.packing-kitchen {
+  background-image: url(assets/pantry.gif);
+  background-size: cover;
+}
+
+.packing-tv {
+  background-image: url(assets/tv.gif);
+  background-size: cover;
+}
+
+.packing-bedroom {
+  background-image: url(assets/bedroom.gif);
   background-size: cover;
 }
 
