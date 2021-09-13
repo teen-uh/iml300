@@ -200,6 +200,11 @@ body {
   background-size: cover;
 }
 
+.pov-cooking {
+  background-image: url(assets/pov-cooking.jpg);
+  background-size: cover;
+}
+
 .food-network {
   background-image: url(assets/food-network.jpg);
   background-size: cover;
@@ -242,6 +247,11 @@ body {
 
 .packing-bedroom {
   background-image: url(assets/bedroom.gif);
+  background-size: cover;
+}
+
+.house-front-enter {
+  background-image: url(assets/house-front-door.jpg);
   background-size: cover;
 }
 
