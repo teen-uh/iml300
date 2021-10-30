@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(-45deg, #eb431e, #ffae03, #59c5aa, #f9e7e7);
-  background-size: 400% 400%;
+  background-size: 700% 700%;
   animation: gradient 14s ease infinite;
   height: 100vh;
   font-family: "Josefin Sans", sans-serif;
@@ -14,25 +14,34 @@ h2 {
   margin: 30px;
 }
 
-body,
+h1 {
+  margin: 30px;
+}
+
+iframe {
+  width: 200px;
+  height: 200px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* body,
 html {
   overflow-x: hidden;
   overflow-y: hidden;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+} */
 
 div {
-  margin: 2.5%;
+  margin: 40px;
 }
 
 a {
   color: white;
-  z-index: 6;
+  font-size: 16px;
+  margin: 20px;
 }
 
 @keyframes gradient {
@@ -47,13 +56,16 @@ a {
   }
 }
 
+.title {
+  padding: 40px;
+}
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-.bottom-container,
+/* .bottom-container,
 .top-container {
   display: flex;
   justify-content: center;
@@ -74,9 +86,9 @@ a {
   color: white;
   clip-path: circle(1% at 85% 50%);
   animation: circleMove 20s ease-in-out infinite;
-}
+} */
 
-@keyframes circleMove {
+/* @keyframes circleMove {
   0%,
   100% {
     clip-path: circle(2% at 50% 50%);
@@ -84,7 +96,7 @@ a {
   50% {
     clip-path: circle(2% at 45% 50%);
   }
-}
+} */
 
 @keyframes rotation {
   from {
