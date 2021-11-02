@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(-45deg, #eb431e, #ffae03, #59c5aa, #f9e7e7);
-  background-size: 700% 700%;
+  background-size: 500% 1000%;
   animation: gradient 14s ease infinite;
   height: 100vh;
   font-family: "Josefin Sans", sans-serif;
@@ -18,9 +18,13 @@ h1 {
   margin: 30px;
 }
 
+footer {
+  margin: 50px;
+  margin-top: 70px;
+}
 iframe {
-  width: 200px;
-  height: 200px;
+  width: 600px;
+  height: 600px;
 }
 
 .grid-container {
