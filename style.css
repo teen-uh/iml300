@@ -1,6 +1,7 @@
 body {
   background: linear-gradient(-45deg, #eb431e, #ffae03, #59c5aa, #f9e7e7);
-  background-size: 500% 1000%;
+  background-size: 400%;
+  background-attachment: fixed;
   animation: gradient 14s ease infinite;
   height: 100vh;
   font-family: "Josefin Sans", sans-serif;
